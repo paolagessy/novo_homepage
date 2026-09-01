@@ -1,0 +1,50 @@
+AU Mic b · noite 2026-07-19 · época 344
+produtos: S+N | g': AP008 comps=[1, 3, 2, 4] | r': AP008 comps=[1] | i': AP008 comps=[1] | z': AP008 comps=[1, 3]
+janela   = 2461241.540025 .. 2461241.770711 BJD_TDB (5.54 h)
+efeméride: T0=2458330.386419  P=8.4631566  (BJD_TDB)
+Tc previsto = 2461241.712289 +- 0.001865 d
+T14 = 3.520 h | b = 0.167 | cobertura = 89.8 %
+binning = 2.0 min | base = poly2+massa
+
+Tc ajustado = 2461241.716803  (O-C = +6.50 min)
+chi2/ndof = 2.605   dchi2 = 31.4  -> -5.6 sigma
+veredito do ajuste: CLAREAMENTO no lugar do trânsito — sistemática
+
+— por banda —
+       AP  prof (ppt)  sig_prof (ppt)       SNR  Rp/R*  sig_Rp/R*  rms res (ppt)  n bins
+banda                                                                                   
+g'      8   -3.089339        0.551657 -5.600109    NaN        NaN       2.143721     164
+r'      8   -3.024996        0.540167 -5.600109    NaN        NaN       2.189520     164
+i'      8   -2.851181        0.509130 -5.600109    NaN        NaN       3.290368     164
+z'      8   -2.737366        0.488806 -5.600109    NaN        NaN       2.996672     164
+
+— robustez (varia linha de base e janela) —
+           base  janela  oc_min  prof_ppt   sig_ppt      nsig     chi2r
+0   poly1+massa   noite    7.00 -2.881873  0.512580 -5.622288  2.778134
+1   poly1+massa  ±3.5 h    7.25 -2.439401  0.582279 -4.189406  2.540632
+2   poly1+massa  ±2.5 h    5.50 -5.878390  0.969785 -6.061542  2.408505
+3         poly1   noite   10.00 -3.441553  0.642358 -5.357686  4.301316
+4         poly1  ±3.5 h  -10.00  2.541404  0.491937  5.166120  3.030701
+5         poly1  ±2.5 h  -10.00  1.837342  0.510149  3.601579  3.021343
+6   poly2+massa   noite    6.50 -3.089339  0.551657 -5.600109  2.605028
+7   poly2+massa  ±3.5 h    6.75 -2.713189  0.554844 -4.890005  2.291091
+8   poly2+massa  ±2.5 h    5.00 -6.762537  0.914033 -7.398567  2.068585
+9         poly2   noite    6.50 -3.107911  0.511541 -6.075580  2.774784
+10        poly2  ±3.5 h    7.00 -2.439747  0.582526 -4.188218  2.541555
+11        poly2  ±2.5 h    5.25 -5.894789  0.981724 -6.004529  2.430193
+12  poly3+massa   noite    6.00 -4.351431  0.761049 -5.717675  1.999315
+13  poly3+massa  ±3.5 h    6.25 -5.950246  0.923741 -6.441465  1.969393
+14  poly3+massa  ±2.5 h    3.50 -3.582033  1.118905 -3.201373  1.849429
+15        poly3   noite    6.00 -3.967290  0.786190 -5.046225  2.196181
+16        poly3  ±3.5 h    7.25 -4.558381  0.851547 -5.353057  2.123270
+17        poly3  ±2.5 h    4.50 -6.664267  0.949704 -7.017202  2.055949
+profundidade entre configurações: -6.76 a +2.54 ppt
+limite superior 3 sigma: 7.59 ppt
+
+— MCMC —
+                           mediana  sig_menos  sig_mais
+parametro                                              
+O-C (min)                 3.697243   1.669188  1.713700
+profundidade todas (ppt) -3.000760   0.559789  0.562805
+Rp/R* todas                    NaN        NaN       NaN
+fração da posterior com profundidade > 0: 0.0 %

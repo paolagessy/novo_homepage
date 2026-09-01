@@ -1,0 +1,13 @@
+AU Mic c · 2026-07-31 · AP008 · S+N · bins 5 min
+janela 2461253.478943..2461253.825039 BJD_TDB
+efeméride T0=2458342.224 P=18.859019 -> Tc(E=154)=2461246.51293
+Tc adotado=2461253.65199 (centro da janela (só ponto de partida)) | modo=busca
+Tc ajustado=2461253.43100 | delta=1.762+-0.368 | dchi2=23.0 (+4.8 sigma)
+veredito: sinal com forma de trânsito
+
+       prof. esperada (ppt)  prof. medida (ppt)  sigma (ppt)  rms resíduo (ppt)
+banda                                                                          
+g'                 2.045152            3.603956     0.751708           1.513024
+r'                 2.006320            3.535526     0.737435           1.327895
+i'                 1.898837            3.346121     0.697929           2.351085
+z'                 1.828060            3.221397     0.671915           6.052203

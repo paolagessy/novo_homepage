@@ -1,0 +1,13 @@
+AU Mic b · 2026-07-19 · AP008 · S+N · bins 5 min
+janela 2461241.540025..2461241.770711 BJD_TDB
+efeméride T0=2458330.3864186 P=8.4631566 -> Tc(E=344)=2461241.71229
+Tc adotado=2461241.71229 (efeméride) | modo=auto
+Tc ajustado=2461241.71680 | delta=-0.556+-0.273 | dchi2=4.1 (-2.0 sigma)
+veredito: sem detecção significativa
+
+       prof. esperada (ppt)  prof. medida (ppt)  sigma (ppt)  rms resíduo (ppt)
+banda                                                                          
+g'                 3.264765           -1.815606     0.892392           2.045340
+r'                 3.196752           -1.777782     0.873801           1.969770
+i'                 3.013033           -1.675612     0.823583           5.101165
+z'                 2.892734           -1.608711     0.790701           3.946081

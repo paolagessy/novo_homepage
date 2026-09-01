@@ -1,0 +1,24 @@
+Flares de AU Mic no SPARC4 — Heinzel+2026
+T* = 3700 K | R* = 0.75 R_sol | mu = 1.0 | A* = 8.5530e+21 cm2
+resposta: sparc4_spectral_response.csv | abertura 8 px | 3 comparações | feixe S+N
+grade 15 s | quiescente mediana (20 min) | detecção em g a 5 sigma
+noites: 2026-08-15
+
+flares medidas
+       flare início (UTC)  dur (min)  amp g (ppt)  ED (s)  T pico (K)  σT (K)  chi2 red  área (cm²)  σA (cm²)  E IIb (erg)  σE (erg)  E IIa (erg)  E MB (erg)
+20260815_F01     22:38:10         15        181.9   48.96   1.108e+04   936.1     11.79   4.871e+18 1.251e+18    1.053e+33  3.61e+31    1.028e+33   2.923e+33
+
+robustez · 2026-08-15
+                variante  flares  dur (min)  amp g (ppt)  T pico (K)  chi2 red  área (cm²)  E IIb (erg)  E IIa (erg)  E / E_ref
+              referência       1         15        181.9   1.108e+04     11.79   4.871e+18    1.053e+33    1.028e+33          1
+         quiescente poly       1         19        185.1        9490     10.06   8.329e+18    1.187e+33    1.187e+33      1.127
+janela quiescente 10 min       1       8.75        157.1        8008     11.03   1.353e+19    6.496e+32    6.427e+32     0.6171
+janela quiescente 40 min       1      22.25          198   1.014e+04     13.82   7.097e+18    1.433e+33    1.432e+33      1.361
+           abertura 5 px       1       13.5        167.3        6803     1.093   2.932e+19    9.863e+32    8.823e+32      0.937
+          abertura 12 px       1         15          185   1.377e+04     6.651   2.646e+18    1.215e+33    1.051e+33      1.155
+           2 comparações       1      14.75        180.2   1.042e+04     10.25   5.834e+18    9.761e+32    9.693e+32     0.9274
+              grade 30 s       1       18.5        179.2   1.017e+04     14.52   6.226e+18    1.109e+33    1.106e+33      1.053
+        T_IIa = 15 000 K       1         15        181.9   1.108e+04     11.79   4.871e+18    1.053e+33     1.28e+33          1
+
+E IIb é a medida (T de pico medido na SED). E IIa depende do T
+assumido e E MB é limite superior: o ruído em T entra como T^4.
